@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatapp Web Design using Html & CSS </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <!-- 程序框 -->
+    <div class="container">
+        <!-- 上层 -->
+        <div class="topSide">
+            <!-- windowBtns -->
+            <div class="windowBtns">
+                <div class="windowBtnsRemove"><ion-icon name="remove"></ion-icon></div>
+                <div class="windowBtnsBrowsers"><ion-icon name="browsers"></ion-icon></div>
+                <div class="windowBtnsClose"><ion-icon name="close"></ion-icon></div>
+
+            </div>
+        </div>
+        <!-- 下层 -->
+        <div class="bottomSide">
+            <div class="bottomSideLeft">
+                <div class="sideNavigation">
+                    <div class="topMenu">
+                        <!-- 头像 -->
+                        <div class="topMenuProfile"><img src="profile.png" alt=""></div>
+                        <!-- 导航栏 -->
+                        <div class="topMenuNavigation">
+                            <div class="navItem"><ion-icon name="chatboxes"></ion-icon></div>
+                            <div class="navItem"><ion-icon name="people"></ion-icon></div>
+                            <div class="navItem"><ion-icon name="compass"></ion-icon></div>
+
+                        </div>
+                    </div>
+                    <!-- 底层按钮 -->
+                    <div class="bottomMenu">
+                        <div class="bottomMenuItem"><ion-icon name="settings"></ion-icon></div>
+                        <div class="bottomMenuItem"><ion-icon name="more"></ion-icon></div>
+                    </div>
+                </div>
+                <!-- 聊天选择框 -->
+                <div class="contextSpace">
+                    <!-- 搜索框 -->
+                    <div class="searchBox">
+                        <div class="searchInput">
+                            <ion-icon name="search"></ion-icon>
+                            <input type="text" placeholder="search">
+                        </div>
+                    </div>
+                    <!-- 聊天列表 -->
+                    <div class="chatList">
+                        <!-- 置顶会话 myNote -->
+                         <div class="listPin">
+                            <!-- 用户头像 -->
+                            <div class="userProfile">
+                                <img src="profile.png" alt="">
+                            </div>
+                            <!-- 聊天信息 -->
+                            <div class="chatInfo">
+                                <!-- 左边信息 -->
+                                <div class="infoLeft">
+                                    <div class="userName">My Note</div>
+                                    <div class="info">Hi, I'm Jason</div>
+                                </div>
+                                <!-- 右边时间 -->
+                                 <div class="infoRight">
+                                    <div class="time">00:02</div>
+                                 </div>
+                            </div>
+                            
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomSideRight">
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+
+</html>
